@@ -1,0 +1,35 @@
+body
+  background-color: #ecf0f1
+  font-family: 'Open Sans'
+  font-size: 16px
+
+h1
+  color: #8e44ad
+  font-family: 'Ubuntu'
+
+#karaoke-panel
+  width: 80%
+  margin: 0 auto
+  text-align: center
+
+  #karaoke-lyrics
+    margin: 50px auto
+    height: 168px
+    overflow: hidden
+
+    p.line
+      line-height: 16px
+      padding-top: 20px
+      padding-bottom: 20px
+      margin: 0
+      color: #95a5a6
+
+      &:first-child
+        margin-top: 56px
+
+      span.word
+        transition: all linear .5s
+
+        &.active
+          color: #8e44ad
+          text-decoration: underline
