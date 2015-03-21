@@ -30,8 +30,8 @@ To get karaoke demo going, one must set up the lyrics variable, set the settings
 The highlight styling can be changed in the karaoke.css file. 
 
 # Credits
-This application was built by <a href="http://www.codereloadrepeat.com/">Jake Larson</a> to be implemented in the <i>The
-Changing Story</i> (to be released) eBook written by Linda Buturian, Susan Andre, and Thomas Nechodomu in the
+This application was built by <a href="http://www.codereloadrepeat.com/">Jake Larson</a> to be implemented in the <em>The
+Changing Story</em> (to be released) eBook written by Linda Buturian, Susan Andre, and Thomas Nechodomu in the
 <a href="http://cehd.umn.edu/">College of Education and Human Development</a> at the
 <a href="http://www.umn.edu/">University of Minnesota — Twin Cities</a>.
 
