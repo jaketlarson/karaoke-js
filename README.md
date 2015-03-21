@@ -23,3 +23,6 @@ This application was built by <a href="http://www.codereloadrepeat.com/">Jake La
 Changing Story</i> (to be released) eBook written by Linda Buturian, Susan Andre, and Thomas Nechodomu in the
 <a href="http://cehd.umn.edu/">College of Education and Human Development</a> at the
 <a href="http://www.umn.edu/">University of Minnesota — Twin Cities</a>.
+
+# License
+Karaoke JS is released under the <a href="http://www.opensource.org/licenses/MIT">MIT License</a>.
