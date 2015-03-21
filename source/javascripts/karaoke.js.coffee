@@ -1,23 +1,3 @@
-$ ->
-  # The lyrics list has to be organized like so:
-  # lyrics = [
-  #   [ # line
-  #     [2.5, "first",], #time, first word
-  #     [2.8, "second"] #time, second word
-  #   ]
-  # ]
-  #
-
-
-  settings = {
-    'last-word-highlight-time': 5.5
-    'scroll-animation-time': .1
-    'karaoke-player-elem': $('audio#karaoke-player')
-    'karaoke-lyrics-elem': $('#karaoke-lyrics')
-  }
-
-  karaoke = new Karaoke(lyrics, settings)
-
 class window.Karaoke
   constructor: (lyrics, settings = undefined) ->
     @settings = settings
