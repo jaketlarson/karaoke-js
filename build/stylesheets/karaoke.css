@@ -1,0 +1,38 @@
+/* line 1, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
+body {
+  background-color: #ecf0f1;
+  font-family: "Open Sans";
+  font-size: 16px; }
+
+/* line 6, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
+h1 {
+  color: #8e44ad;
+  font-family: "Ubuntu"; }
+
+/* line 10, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
+#karaoke-panel {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+  /* line 15, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
+  #karaoke-panel #karaoke-lyrics {
+    margin: 50px auto;
+    height: 168px;
+    overflow: hidden; }
+    /* line 20, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
+    #karaoke-panel #karaoke-lyrics p.line {
+      line-height: 16px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: 0;
+      color: #95a5a6; }
+      /* line 27, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
+      #karaoke-panel #karaoke-lyrics p.line:first-child {
+        margin-top: 56px; }
+      /* line 30, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
+      #karaoke-panel #karaoke-lyrics p.line span.word {
+        transition: all linear 0.5s; }
+        /* line 33, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
+        #karaoke-panel #karaoke-lyrics p.line span.word.active {
+          color: #8e44ad;
+          text-decoration: underline; }
